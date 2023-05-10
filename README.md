@@ -1,4 +1,4 @@
-# oilprediction
+# oil_prediction
 Oil prediction model (cross validation and normalization included)
 
 STEPS TO USE MY DASHBOARD 
@@ -8,8 +8,12 @@ STEPS TO USE MY DASHBOARD
 3# Run the Dashboard.py file in your console
 
 
-Warning : My model was overfitted. The prediction is not good because of the overfitting. For now, I don't have enough data to fix that problem. The solution is to merge a new dataframe with additionnal datas to train the model with other datas. 
+Warning :If overfitting : the solution is to merge a new dataframe with additionnal datas to train the model with other datas. 
 Nevertheless, you can see my crossvalidation. Among a set of linear model, the best model was the LinearRegression (std deviation approximately equal to 0.007 and mean score = 0.986
 
 Linear Regression score (test_set) = 0.994
+
+I am working on a calibration of the Heston model using NNs. Next project is to integrate my Heston model calibrated to predict implied volatility surfaces on an european option. Then, I will be able to predict the price of an option in fonction of its maturity and strike for option smile dependents. 
+
+-- Imperial College London -- 
 
